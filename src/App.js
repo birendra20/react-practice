@@ -12,8 +12,11 @@
 // import MouseContainerCleanUp from "./components/useEffect/HooksCleanUp";
 // import MouseContainer from "./components/useEffect/MouseContainerCleanUpHook";
 // import HookMouse from "./components/useEffect/RuneffectOnlyonce";
-import IntervalClassCounter from "./components/useEffect/ClassIncorrectDependancy";
-import IntervalHookCounter from "./components/useEffect/HooksIncorrectDependancy";
+// import IntervalClassCounter from "./components/useEffect/ClassIncorrectDependancy";
+// import IntervalHookCounter from "./components/useEffect/HooksIncorrectDependancy";
+import DataFetchingP1 from "./components/useEffect/DataFetchingP1";
+import DataFetchingP2 from "./components/useEffect/DataFetchingP2";
+import DataFetchingP3 from "./components/useEffect/DataFetchingP3";
 import "./styles.css";
 
 export default function App() {
@@ -31,8 +34,11 @@ export default function App() {
       <HookMouse />
       <ClassMouseCleanUp />
       <MouseContainer/> */}
-      <IntervalHookCounter />
-      <IntervalClassCounter />
+      {/* <IntervalHookCounter />
+      <IntervalClassCounter /> */}
+      {/* <DataFetchingP1/> */}
+      <DataFetchingP2 />
+      {/* <DataFetchingP3/> */}
     </div>
   );
 }
