@@ -20,9 +20,12 @@
 // import ComplexCounterTwo from "./components/hooks/useReducer/ComplexStateAndAction";
 // import MultipleUseReducersCounterThree from "./components/hooks/useReducer/MultipleUseReducers";
 // import SimpleStateAndActionCounterOne from "./components/hooks/useReducer/SimpleStateAndAction";
+import ClassComponent from "./components/comp/ClassComponent";
+import FunctionalComponent from "./components/comp/FunctionalComponents";
 import MainApp from "./components/hooks/useReducer/UseReducerWithContext/MainApp";
 import "./styles.css";
 
+let name = "bire..";
 export default function App() {
   return (
     <div className="App">
@@ -46,7 +49,9 @@ export default function App() {
       {/* <SimpleStateAndActionCounterOne /> */}
       {/* <ComplexCounterTwo/> */}
       {/* <MultipleUseReducersCounterThree /> */}
-      <MainApp />
+      {/* <MainApp /> */}
+      <FunctionalComponent name={name} />
+      <ClassComponent name={"birendra"} />
     </div>
   );
 }
