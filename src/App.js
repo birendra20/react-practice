@@ -22,6 +22,9 @@
 // import SimpleStateAndActionCounterOne from "./components/hooks/useReducer/SimpleStateAndAction";
 import ClassComponent from "./components/comp/ClassComponent";
 import FunctionalComponent from "./components/comp/FunctionalComponents";
+import SignUp from "./components/conditionalRendering/Ifelse";
+import LogicalAnd from "./components/conditionalRendering/Logicall&&";
+import TernarySignUp from "./components/conditionalRendering/TernaryOpreator";
 import MainApp from "./components/hooks/useReducer/UseReducerWithContext/MainApp";
 import "./styles.css";
 
@@ -50,8 +53,11 @@ export default function App() {
       {/* <ComplexCounterTwo/> */}
       {/* <MultipleUseReducersCounterThree /> */}
       {/* <MainApp /> */}
-      <FunctionalComponent name={name} />
-      <ClassComponent name={"birendra"} />
+      {/* <FunctionalComponent name={name} /> */}
+      {/* <ClassComponent name={"birendra"} /> */}
+      {/* <SignUp />
+      <TernarySignUp /> */}
+      <LogicalAnd />
     </div>
   );
 }
