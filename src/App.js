@@ -26,9 +26,11 @@ import SignUp from "./components/conditionalRendering/Ifelse";
 import LogicalAnd from "./components/conditionalRendering/Logicall&&";
 import TernarySignUp from "./components/conditionalRendering/TernaryOpreator";
 import MainApp from "./components/hooks/useReducer/UseReducerWithContext/MainApp";
+import ListRendering from "./components/ListAndKey/ListRendering";
+import ListWithKey from "./components/ListAndKey/ListWithKey";
 import "./styles.css";
 
-let name = "bire..";
+// let name = "bire..";
 export default function App() {
   return (
     <div className="App">
@@ -57,7 +59,9 @@ export default function App() {
       {/* <ClassComponent name={"birendra"} /> */}
       {/* <SignUp />
       <TernarySignUp /> */}
-      <LogicalAnd />
+      {/* <LogicalAnd /> */}
+      {/* <ListRendering /> */}
+      <ListWithKey />
     </div>
   );
 }
