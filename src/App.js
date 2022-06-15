@@ -20,13 +20,13 @@
 // import ComplexCounterTwo from "./components/hooks/useReducer/ComplexStateAndAction";
 // import MultipleUseReducersCounterThree from "./components/hooks/useReducer/MultipleUseReducers";
 // import SimpleStateAndActionCounterOne from "./components/hooks/useReducer/SimpleStateAndAction";
-import ClassComponent from "./components/comp/ClassComponent";
-import FunctionalComponent from "./components/comp/FunctionalComponents";
-import SignUp from "./components/conditionalRendering/Ifelse";
-import LogicalAnd from "./components/conditionalRendering/Logicall&&";
-import TernarySignUp from "./components/conditionalRendering/TernaryOpreator";
-import MainApp from "./components/hooks/useReducer/UseReducerWithContext/MainApp";
-import ListRendering from "./components/ListAndKey/ListRendering";
+// import ClassComponent from "./components/comp/ClassComponent";
+// import FunctionalComponent from "./components/comp/FunctionalComponents";
+// import SignUp from "./components/conditionalRendering/Ifelse";
+// import LogicalAnd from "./components/conditionalRendering/Logicall&&";
+// import TernarySignUp from "./components/conditionalRendering/TernaryOpreator";
+// import MainApp from "./components/hooks/useReducer/UseReducerWithContext/MainApp";
+// import ListRendering from "./components/ListAndKey/ListRendering";
 import ListWithKey from "./components/ListAndKey/ListWithKey";
 import "./styles.css";
 

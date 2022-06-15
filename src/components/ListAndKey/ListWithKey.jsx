@@ -8,8 +8,13 @@ function ListWithKey() {
 
   return (
     <div>
-      {persons.map((names) => {
-        return <div>name:{name}</div>;
+      {persons.map((person) => {
+        return (
+          <div key={persons.id}>
+            name:{person.name}
+            <p>age:{person.age}</p>
+          </div>
+        );
       })}
     </div>
   );

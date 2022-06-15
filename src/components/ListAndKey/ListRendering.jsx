@@ -3,10 +3,6 @@ function ListRendering() {
 
   return (
     <div>
-      {/* {names.map((name) => (
-        <h1>{name}</h1>
-      ))} */}
-
       {names.map((name) => {
         return <h1>{name}</h1>;
       })}
